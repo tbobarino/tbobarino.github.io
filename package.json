@@ -1,0 +1,30 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Personal portfolio website showcasing software engineering experience",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=/",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "echo 'Add your deployment commands here'"
+  },
+  "keywords": [
+    "portfolio",
+    "personal-website", 
+    "software-engineer",
+    "resume",
+    "cv"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/personal-website"
+  },
+  "homepage": "https://yourusername.github.io/personal-website"
+}
