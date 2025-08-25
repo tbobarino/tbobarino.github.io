@@ -590,3 +590,8 @@ h2::after {
         display: none !important;
     }
 }
+
+/* Prevent line breaks in subtitle text */
+.subtitle {
+    white-space: nowrap;
+}
